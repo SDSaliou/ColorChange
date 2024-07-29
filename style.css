@@ -1,0 +1,35 @@
+/* Style the container class to center its content horizontally and give it some top margin for spacing */
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#color-box {
+    width: 400px;
+    height: 400px;
+    background-color: #FF33CE; 
+    margin: 20px auto;
+}
+
+#change-color-btn {
+    padding: 20px 10px;
+    align-items: center;
+    font-size: 16px;
+    color: #4d045f;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#change-color-btn:hover {
+    background-color: #0A0309;
+}
